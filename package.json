@@ -8,8 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "apk": "cd android && gradlew assembleRelease",
-    "aab": "cd android && gradlew bundleRelease"
+    "apk": "cd android && ./gradlew assembleRelease",
+    "aab": "cd android && ./gradlew bundleRelease"
   },
   "dependencies": {
     "@micabe/react-native-share-instagram": "^1.1.0",
